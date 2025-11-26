@@ -1,0 +1,158 @@
+2025-11-26T12:46:56.449Z [INFO] Prechecking project spring-boot-legacy...
+2025-11-26T12:46:56.450Z [INFO] Prechecking build status...
+2025-11-26T12:47:06.114Z [INFO] Prechecking CVEs...
+2025-11-26T12:47:06.629Z [INFO] Prechecking tests...
+2025-11-26T12:47:06.629Z [INFO] Run tests before upgrading...
+2025-11-26T12:47:17.445Z [INFO] Prepare initial state...
+2025-11-26T12:47:17.445Z [INFO] [Project spring-boot-legacy]: getting project state.
+2025-11-26T12:47:17.445Z [INFO] [Project spring-boot-legacy]: getting Java version.
+2025-11-26T12:47:17.446Z [INFO] [Project spring-boot-legacy]: got Java version: 8
+2025-11-26T12:47:17.447Z [INFO] [Project spring-boot-legacy]: getting dependencies promise.
+2025-11-26T12:47:17.447Z [INFO] Project initial state: {
+  "javaVersion": "8",
+  "dependencies": [
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-actuator",
+      "type": "jar",
+      "version": "2.0.2.RELEASE",
+      "scope": "compile",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-web",
+      "type": "jar",
+      "version": "2.0.2.RELEASE",
+      "scope": "compile",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-jdbc",
+      "type": "jar",
+      "version": "2.0.2.RELEASE",
+      "scope": "compile",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient",
+      "type": "jar",
+      "version": "4.5.5",
+      "scope": "runtime",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "com.h2database",
+      "artifactId": "h2",
+      "type": "jar",
+      "version": "1.4.197",
+      "scope": "runtime",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-configuration-processor",
+      "type": "jar",
+      "version": "2.0.2.RELEASE",
+      "scope": "compile",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-test",
+      "type": "jar",
+      "version": "2.0.2.RELEASE",
+      "scope": "test",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "io.rest-assured",
+      "artifactId": "rest-assured",
+      "type": "jar",
+      "version": "3.0.7",
+      "scope": "test",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "org.codehaus.groovy",
+      "artifactId": "groovy-all",
+      "type": "jar",
+      "version": "2.4.15",
+      "scope": "test",
+      "module": "spring-boot-sample-actuator"
+    },
+    {
+      "groupId": "java",
+      "artifactId": "*",
+      "version": "8"
+    }
+  ],
+  "buildResult": {
+    "numOfJavaFiles": 9,
+    "numOfClassFiles": 9,
+    "modulesBuildResult": {
+      ".": {
+        "numOfJavaFiles": 9,
+        "numOfClassFiles": 9
+      }
+    },
+    "errors": [],
+    "command": "mvn clean test-compile -q -B -fn"
+  },
+  "testResult": {
+    "errors": [],
+    "failures": [],
+    "summary": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "reports": [
+      {
+        "name": "sample.actuator.HelloWorldServiceTest",
+        "time": 0,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "expectedMessage",
+            "classname": "sample.actuator.HelloWorldServiceTest",
+            "time": 0,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "sample.actuator.ExampleInfoContributorTest",
+        "time": 0.599,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "infoMap",
+            "classname": "sample.actuator.ExampleInfoContributorTest",
+            "time": 0.505,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      }
+    ]
+  }
+}

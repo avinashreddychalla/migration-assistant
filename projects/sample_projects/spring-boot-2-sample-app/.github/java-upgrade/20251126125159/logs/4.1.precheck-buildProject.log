@@ -1,0 +1,7 @@
+2025-11-26T12:52:41.912Z [INFO] [MavenBuildTool] Getting build errors of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app using Maven
+2025-11-26T12:52:41.912Z [INFO] [Environment] Running command (Java 8): mvn clean test-compile -q -B -fn
+2025-11-26T12:52:48.095Z [INFO] [MavenBuildTool] parsing compilation errors.
+2025-11-26T12:52:48.096Z [INFO] [BaseBuildTool] Found 1 modules: .
+2025-11-26T12:52:48.105Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2025-11-26T12:52:48.105Z [INFO] [MavenBuildTool] Cleaning C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app using Maven
+2025-11-26T12:52:48.106Z [INFO] [Environment] Running command (Java 8): mvn clean -q -B -fn

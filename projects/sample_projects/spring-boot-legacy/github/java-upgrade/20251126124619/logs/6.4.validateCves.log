@@ -1,0 +1,68 @@
+2025-11-26T12:49:38.808Z [INFO] Some dependencies have been modified or added during the upgrade. start validating CVEs.
+2025-11-26T12:49:38.814Z [INFO] Getting CVEs for dependencies: org.springframework.boot:spring-boot-starter-validation:3.2.12:jar,org.apache.httpcomponents.client5:httpclient5:5.2.3:jar,org.springframework.boot:spring-boot-starter-actuator:3.2.12:jar,org.springframework.boot:spring-boot-starter-web:3.2.12:jar,org.springframework.boot:spring-boot-starter-jdbc:3.2.12:jar,com.h2database:h2:2.2.224:jar,org.springframework.boot:spring-boot-configuration-processor:3.2.12:jar,org.springframework.boot:spring-boot-starter-test:3.2.12:jar,io.rest-assured:rest-assured:5.3.2:jar,org.codehaus.groovy:groovy-all:2.4.21:jar,java:*:21
+2025-11-26T12:49:38.815Z [INFO] getting CVEs for dependencies:
+ - org.springframework.boot:spring-boot-starter-validation:3.2.12:jar
+  - org.apache.httpcomponents.client5:httpclient5:5.2.3:jar
+  - org.springframework.boot:spring-boot-starter-actuator:3.2.12:jar
+  - org.springframework.boot:spring-boot-starter-web:3.2.12:jar
+  - org.springframework.boot:spring-boot-starter-jdbc:3.2.12:jar
+  - com.h2database:h2:2.2.224:jar
+  - org.springframework.boot:spring-boot-configuration-processor:3.2.12:jar
+  - org.springframework.boot:spring-boot-starter-test:3.2.12:jar
+  - io.rest-assured:rest-assured:5.3.2:jar
+  - org.codehaus.groovy:groovy-all:2.4.21:jar
+  - java:*:21...
+2025-11-26T12:49:38.815Z [INFO] getting gitHub access token...
+2025-11-26T12:49:38.816Z [ERROR] Failed to get GitHub access token to validate CVEs for the given dependencies.
+2025-11-26T12:49:38.816Z [INFO] Processing batch 1/1, size: 11
+2025-11-26T12:49:38.817Z [INFO] listing CVEs from GithHub for dependencies [
+  {
+    "name": "org.springframework.boot:spring-boot-starter-validation",
+    "version": "3.2.12"
+  },
+  {
+    "name": "org.apache.httpcomponents.client5:httpclient5",
+    "version": "5.2.3"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-actuator",
+    "version": "3.2.12"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-web",
+    "version": "3.2.12"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-jdbc",
+    "version": "3.2.12"
+  },
+  {
+    "name": "com.h2database:h2",
+    "version": "2.2.224"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-configuration-processor",
+    "version": "3.2.12"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-test",
+    "version": "3.2.12"
+  },
+  {
+    "name": "io.rest-assured:rest-assured",
+    "version": "5.3.2"
+  },
+  {
+    "name": "org.codehaus.groovy:groovy-all",
+    "version": "2.4.21"
+  },
+  {
+    "name": "java:*",
+    "version": "21"
+  }
+]
+2025-11-26T12:49:39.170Z [INFO] found 0 CVEs for dependencies
+2025-11-26T12:49:39.170Z [INFO] grouping CVEs and finding min patched version by dep...
+2025-11-26T12:49:39.170Z [INFO] done getting 0 CVEs for 11 dependencies
+2025-11-26T12:49:39.170Z [INFO] Found 0 dependencies with known CVEs
+2025-11-26T12:49:39.171Z [INFO] No known CVEs that need to be fixed are found for dependencies: org.springframework.boot:spring-boot-starter-validation:3.2.12:jar,org.apache.httpcomponents.client5:httpclient5:5.2.3:jar,org.springframework.boot:spring-boot-starter-actuator:3.2.12:jar,org.springframework.boot:spring-boot-starter-web:3.2.12:jar,org.springframework.boot:spring-boot-starter-jdbc:3.2.12:jar,com.h2database:h2:2.2.224:jar,org.springframework.boot:spring-boot-configuration-processor:3.2.12:jar,org.springframework.boot:spring-boot-starter-test:3.2.12:jar,io.rest-assured:rest-assured:5.3.2:jar,org.codehaus.groovy:groovy-all:2.4.21:jar,java:*:21

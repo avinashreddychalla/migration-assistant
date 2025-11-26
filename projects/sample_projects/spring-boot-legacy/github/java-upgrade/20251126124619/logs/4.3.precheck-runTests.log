@@ -1,0 +1,19 @@
+2025-11-26T12:47:06.631Z [INFO] [MavenBuildTool] Running test cases of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy using Maven
+2025-11-26T12:47:06.632Z [INFO] [Environment] Running command (Java 8): mvn clean test -q -B -fn
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.actuator.ExampleInfoContributorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.599 sec
+Running sample.actuator.HelloWorldServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+2025-11-26T12:47:14.358Z [INFO] [MavenBuildTool] loading surefire reports.
+2025-11-26T12:47:14.380Z [INFO] [MavenBuildTool] summarizing surefire reports.
+2025-11-26T12:47:14.381Z [INFO] [MavenBuildTool] Cleaning C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy using Maven
+2025-11-26T12:47:14.381Z [INFO] [Environment] Running command (Java 8): mvn clean -q -B -fn

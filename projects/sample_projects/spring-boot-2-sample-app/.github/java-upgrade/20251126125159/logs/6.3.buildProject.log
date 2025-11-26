@@ -1,0 +1,22 @@
+2025-11-26T12:54:47.763Z [INFO] [BaseBuildTool] Firing config modified event for mvn, sleeping for 5 seconds
+2025-11-26T12:54:47.766Z [INFO] [Environment] Running command (Java 21): mvn --version
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\softwares\mvn
+Java version: 21.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2025-11-26T12:54:48.409Z [INFO] [BaseBuildTool] New version of mvn: 3.9.9 -> 3.9.9
+2025-11-26T12:54:48.409Z [INFO] [MavenBuildTool] Getting Java version of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app from pom.xml
+2025-11-26T12:54:48.410Z [INFO] [MavenBuildTool] Searching for pom.xml files in C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app
+2025-11-26T12:54:48.410Z [INFO] [MavenBuildTool] Found pom.xml files: C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app\pom.xml
+2025-11-26T12:54:48.412Z [INFO] [MavenBuildTool] Java version found in C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app\pom.xml: 21
+2025-11-26T12:54:48.412Z [INFO] [BaseBuildTool] Notifying Java version/Config change: '21' || '21'
+2025-11-26T12:54:48.416Z [INFO] [MavenBuildTool] Getting build errors of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app using Maven
+2025-11-26T12:54:48.421Z [INFO] [Environment] Running command (Java 21): mvn clean test-compile -q -B -fn
+2025-11-26T12:54:58.135Z [INFO] [MavenBuildTool] parsing compilation errors.
+2025-11-26T12:54:58.138Z [INFO] [BaseBuildTool] Found 1 modules: .
+2025-11-26T12:54:58.153Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2025-11-26T12:54:58.154Z [INFO] [MavenBuildTool] Cleaning C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-2-sample-app using Maven
+2025-11-26T12:54:58.155Z [INFO] [Environment] Running command (Java 21): mvn clean -q -B -fn
+2025-11-26T12:55:02.851Z [INFO] Build succeeded! There are no build errors in the project.
+2025-11-26T12:55:02.856Z [INFO] Build project completed. Looking for next task...

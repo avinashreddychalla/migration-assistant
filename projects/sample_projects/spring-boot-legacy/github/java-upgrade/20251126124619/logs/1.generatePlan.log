@@ -1,0 +1,1056 @@
+2025-11-26T12:46:19.557Z [INFO] Initializing project configuration...
+2025-11-26T12:46:19.558Z [INFO] Project C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy is a maven project, try to get java version from pom.xml
+2025-11-26T12:46:19.565Z [INFO] Project java version: 8
+2025-11-26T12:46:19.565Z [INFO] Maven project detected.
+2025-11-26T12:46:19.566Z [INFO] Build tool type: mvn
+2025-11-26T12:46:19.716Z [INFO] [Environment] Running command (Java 8): java -version
+openjdk version "1.8.0_472"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_472-b08)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.472-b08, mixed mode)
+2025-11-26T12:46:19.823Z [INFO] [JdkEnvironment] Got real Java version: 1.8.0_472
+2025-11-26T12:46:19.824Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\avina\\.jdk\\jdk-8\\bin",
+  "version": "8"
+}
+2025-11-26T12:46:19.837Z [INFO] [Environment] Running command (Java 8): mvn --version
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\softwares\mvn
+Java version: 1.8.0_472, vendor: Temurin, runtime: C:\Users\avina\.jdk\jdk-8\jre
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2025-11-26T12:46:20.294Z [INFO] Real build tool version: 3.9.9
+2025-11-26T12:46:20.294Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\softwares\\mvn\\bin",
+  "version": "3.9.9"
+}
+2025-11-26T12:46:20.295Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\softwares\\mvn\\bin",
+    "name": "mvn",
+    "version": "3.9.9"
+  },
+  "jdk": {
+    "path": "C:\\Users\\avina\\.jdk\\jdk-8\\bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "spring-boot-legacy",
+  "dir": "C:\\Users\\avina\\copilot-cli\\baseline-projects\\Code_Analysis_Assistant-\\projects\\sample_projects\\spring-boot-legacy"
+}
+2025-11-26T12:46:20.295Z [INFO] Project configuration initialized: {
+  "buildTool": {
+    "path": "C:\\softwares\\mvn\\bin",
+    "name": "mvn",
+    "version": "3.9.9"
+  },
+  "jdk": {
+    "path": "C:\\Users\\avina\\.jdk\\jdk-8\\bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "spring-boot-legacy",
+  "dir": "C:\\Users\\avina\\copilot-cli\\baseline-projects\\Code_Analysis_Assistant-\\projects\\sample_projects\\spring-boot-legacy"
+}
+2025-11-26T12:46:20.296Z [INFO] Initializing upgrade goals...
+2025-11-26T12:46:20.301Z [INFO] [Environment] Running command (Java 8): mvn dependency:tree -B
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------< org.springframework.boot:spring-boot-sample-actuator >--------
+[INFO] Building Spring Boot Actuator Sample 2.0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.0.2:tree (default-cli) @ spring-boot-sample-actuator ---
+[INFO] org.springframework.boot:spring-boot-sample-actuator:jar:2.0.2
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-actuator:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+[INFO] |  |  +- org.springframework:spring-context:jar:5.0.6.RELEASE:compile
+[INFO] |  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5:compile
+[INFO] |  \- io.micrometer:micrometer-core:jar:1.0.4:compile
+[INFO] |     +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO] |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.9.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.6.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.6.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.6.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.6.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.6.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.2.RELEASE:compile
+[INFO] |  +- com.zaxxer:HikariCP:jar:2.7.9:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- org.springframework:spring-jdbc:jar:5.0.6.RELEASE:compile
+[INFO] |     \- org.springframework:spring-tx:jar:5.0.6.RELEASE:compile
+[INFO] +- org.apache.httpcomponents:httpclient:jar:4.5.5:runtime
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:runtime
+[INFO] |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO] +- com.h2database:h2:jar:1.4.197:runtime
+[INFO] +- org.springframework.boot:spring-boot-configuration-processor:jar:2.0.2.RELEASE:compile (optional) 
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.0.6.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.6.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.6.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- io.rest-assured:rest-assured:jar:3.0.7:test
+[INFO] |  +- org.codehaus.groovy:groovy:jar:2.4.15:test
+[INFO] |  +- org.codehaus.groovy:groovy-xml:jar:2.4.15:test
+[INFO] |  +- org.apache.httpcomponents:httpmime:jar:4.5.5:test
+[INFO] |  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+[INFO] |  +- io.rest-assured:json-path:jar:3.0.7:test
+[INFO] |  |  +- org.codehaus.groovy:groovy-json:jar:2.4.15:test
+[INFO] |  |  \- io.rest-assured:rest-assured-common:jar:3.0.7:test
+[INFO] |  \- io.rest-assured:xml-path:jar:3.0.7:test
+[INFO] |     +- org.apache.commons:commons-lang3:jar:3.7:test
+[INFO] |     \- javax.xml.bind:jaxb-api:jar:2.3.0:test
+[INFO] \- org.codehaus.groovy:groovy-all:jar:2.4.15:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.071 s
+[INFO] Finished at: 2025-11-26T18:16:29+05:30
+[INFO] ------------------------------------------------------------------------
+2025-11-26T12:46:29.609Z [INFO] [MavenBuildTool] Successfully got dependency tree of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy
+2025-11-26T12:46:29.611Z [INFO] [MavenBuildTool] Getting Java version of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy from pom.xml
+2025-11-26T12:46:29.611Z [INFO] [MavenBuildTool] Searching for pom.xml files in C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy
+2025-11-26T12:46:29.612Z [INFO] [MavenBuildTool] Getting all module coordinates of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy
+2025-11-26T12:46:29.612Z [INFO] [MavenBuildTool] Getting effective POMs of C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy
+2025-11-26T12:46:29.612Z [INFO] [Environment] Running command (Java 8): mvn help:effective-pom -Doutput=effective-pom-1ecc7522-09fa-4a48-859e-a2c3bd14db85.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------< org.springframework.boot:spring-boot-sample-actuator >--------
+[INFO] Building Spring Boot Actuator Sample 2.0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:2.2:effective-pom (default-cli) @ spring-boot-sample-actuator ---
+[INFO] Effective-POM written to: C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy\effective-pom-1ecc7522-09fa-4a48-859e-a2c3bd14db85.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.812 s
+[INFO] Finished at: 2025-11-26T18:16:33+05:30
+[INFO] ------------------------------------------------------------------------
+2025-11-26T12:46:33.573Z [INFO] [MavenBuildTool] Found pom.xml files: C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy\pom.xml
+2025-11-26T12:46:33.575Z [INFO] [MavenBuildTool] Java version found in C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy\pom.xml: 8
+2025-11-26T12:46:33.576Z [INFO] Source Java version: 8
+2025-11-26T12:46:33.577Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object]
+2025-11-26T12:46:33.579Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Spring Boot
+2025-11-26T12:46:33.580Z [WARN] No source dependencies found for Spring Framework. Skipping target dependency validation
+2025-11-26T12:46:33.580Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Spring Framework
+2025-11-26T12:46:33.580Z [WARN] No source dependencies found for Spring Security. Skipping target dependency validation
+2025-11-26T12:46:33.581Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Spring Security
+2025-11-26T12:46:33.581Z [WARN] No source dependencies found for Jakarta EE. Skipping target dependency validation
+2025-11-26T12:46:33.582Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Jakarta EE
+2025-11-26T12:46:33.582Z [WARN] No source dependencies found for JUnit. Skipping target dependency validation
+2025-11-26T12:46:33.583Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:JUnit
+2025-11-26T12:46:33.584Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Java
+2025-11-26T12:46:33.584Z [INFO] validateAndUpdateTargets, userTargets: [object Object],[object Object]
+2025-11-26T12:46:33.587Z [INFO] initUpgradeGoal, targetDeps: [object Object],[object Object]
+2025-11-26T12:46:33.588Z [INFO] Upgrade goal initialized: [
+  {
+    "name": "Java",
+    "groupId": "java",
+    "artifactId": "*",
+    "version": "21",
+    "recipes": [
+      {
+        "id": "org.openrewrite.java.migrate.UpgradeToJava21",
+        "name": "Upgrade to Java 21",
+        "description": "Migrate Java 8 to Java 21.",
+        "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava21",
+        "recipeLib": {
+          "groupId": "org.openrewrite.recipe",
+          "artifactId": "rewrite-migrate-java",
+          "version": "2.31.1",
+          "versionForGradle": "2.31.1"
+        }
+      }
+    ],
+    "supportedSources": [
+      {
+        "groupId": "java",
+        "artifactId": "*",
+        "version": ">=8 <21"
+      },
+      {
+        "name": "Java",
+        "groupId": "java",
+        "artifactId": "*",
+        "version": "11",
+        "recipes": [
+          {
+            "id": "org.openrewrite.java.migrate.Java8toJava11",
+            "name": "Upgrade to Java 11",
+            "description": "Migrate Java 8 to Java 11.",
+            "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava11",
+            "recipeLib": {
+              "groupId": "org.openrewrite.recipe",
+              "artifactId": "rewrite-migrate-java",
+              "version": "2.31.1",
+              "versionForGradle": "2.31.1"
+            }
+          }
+        ],
+        "supportedSources": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": ">=8 <11"
+          }
+        ],
+        "effects": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "11"
+          }
+        ]
+      },
+      {
+        "name": "Java",
+        "groupId": "java",
+        "artifactId": "*",
+        "version": "17",
+        "recipes": [
+          {
+            "id": "org.openrewrite.java.migrate.UpgradeToJava17",
+            "name": "Upgrade to Java 17",
+            "description": "Migrate Java 8 to Java 17.",
+            "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava17",
+            "recipeLib": {
+              "groupId": "org.openrewrite.recipe",
+              "artifactId": "rewrite-migrate-java",
+              "version": "2.31.1",
+              "versionForGradle": "2.31.1"
+            }
+          }
+        ],
+        "supportedSources": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": ">=8 <17"
+          },
+          {
+            "name": "Java",
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "11",
+            "recipes": [
+              {
+                "id": "org.openrewrite.java.migrate.Java8toJava11",
+                "name": "Upgrade to Java 11",
+                "description": "Migrate Java 8 to Java 11.",
+                "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava11",
+                "recipeLib": {
+                  "groupId": "org.openrewrite.recipe",
+                  "artifactId": "rewrite-migrate-java",
+                  "version": "2.31.1",
+                  "versionForGradle": "2.31.1"
+                }
+              }
+            ],
+            "supportedSources": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": ">=8 <11"
+              }
+            ],
+            "effects": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": "11"
+              }
+            ]
+          }
+        ],
+        "effects": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "17"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "groupId": "java",
+        "artifactId": "*",
+        "version": "21"
+      }
+    ]
+  },
+  {
+    "name": "Spring Boot",
+    "groupId": "org.springframework.boot",
+    "artifactId": "*",
+    "version": "3.2.x",
+    "dependencies": [
+      {
+        "groupId": "java",
+        "artifactId": "*",
+        "version": ">=17 <=21"
+      }
+    ],
+    "recipes": [
+      {
+        "id": "org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2",
+        "name": "Upgrade Spring Boot to 3.2",
+        "description": "Migrate low-level to Spring Boot 3.2 directly.",
+        "recipeLib": {
+          "groupId": "org.openrewrite.recipe",
+          "artifactId": "rewrite-spring",
+          "version": "5.25.1",
+          "versionForGradle": "5.23.0"
+        },
+        "url": "https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_2"
+      }
+    ],
+    "supportedSources": [
+      {
+        "groupId": "org.springframework.boot",
+        "artifactId": "*",
+        "version": "<=3.2.12"
+      },
+      {
+        "name": "Spring Boot",
+        "groupId": "org.springframework.boot",
+        "artifactId": "*",
+        "version": "2.7.x",
+        "dependencies": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": ">=8 <=21"
+          }
+        ],
+        "recipes": [
+          {
+            "id": "org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7",
+            "name": "Upgrade Spring Boot to 2.7",
+            "description": "Migrate low-level to Spring Boot 2.7 directly.",
+            "recipeLib": {
+              "groupId": "org.openrewrite.recipe",
+              "artifactId": "rewrite-spring",
+              "version": "5.25.1",
+              "versionForGradle": "5.23.0"
+            },
+            "url": "https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_7"
+          }
+        ],
+        "supportedSources": [
+          {
+            "groupId": "org.springframework.boot",
+            "artifactId": "*",
+            "version": "<=2.7.18"
+          }
+        ],
+        "effects": [
+          {
+            "groupId": "org.springframework.boot",
+            "artifactId": "*",
+            "version": "2.7.x"
+          },
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "8"
+          },
+          {
+            "groupId": "org.springframework",
+            "artifactId": "*",
+            "version": "5.3.x"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "groupId": "org.springframework.boot",
+        "artifactId": "*",
+        "version": "3.2.x"
+      },
+      {
+        "groupId": "java",
+        "artifactId": "*",
+        "version": "17"
+      },
+      {
+        "groupId": "org.springframework",
+        "artifactId": "*",
+        "version": "6.1.x"
+      }
+    ]
+  }
+]
+2025-11-26T12:46:33.589Z [INFO] Initializing upgrade options...
+2025-11-26T12:46:33.590Z [INFO] Source Java version: 8
+2025-11-26T12:46:33.590Z [INFO] Source JDK: {"name":"java","path":"C:\\Users\\avina\\.jdk\\jdk-8\\bin","version":"8"}
+2025-11-26T12:46:33.591Z [INFO] Target Java version: 21
+2025-11-26T12:46:33.770Z [INFO] Target JDK: {"name":"java","path":"C:\\Program Files\\Java\\jdk-21\\bin","version":"21.0.8","source":"PATH"}
+2025-11-26T12:46:33.771Z [INFO] Maven project detected.
+2025-11-26T12:46:33.771Z [INFO] Build tool type: mvn
+2025-11-26T12:46:33.771Z [INFO] Build tool: {"name":"mvn","path":"C:\\softwares\\mvn\\bin","version":""}
+2025-11-26T12:46:33.772Z [INFO] Working branch: appmod/java-upgrade-20251126124619
+2025-11-26T12:46:33.772Z [INFO] Upgrade options initialized: {
+  "target": {
+    "jdk": {
+      "name": "java",
+      "path": "C:\\Program Files\\Java\\jdk-21\\bin",
+      "version": "21.0.8",
+      "source": "PATH"
+    },
+    "dependencies": [
+      {
+        "name": "Java",
+        "groupId": "java",
+        "artifactId": "*",
+        "version": "21",
+        "recipes": [
+          {
+            "id": "org.openrewrite.java.migrate.UpgradeToJava21",
+            "name": "Upgrade to Java 21",
+            "description": "Migrate Java 8 to Java 21.",
+            "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava21",
+            "recipeLib": {
+              "groupId": "org.openrewrite.recipe",
+              "artifactId": "rewrite-migrate-java",
+              "version": "2.31.1",
+              "versionForGradle": "2.31.1"
+            }
+          }
+        ],
+        "supportedSources": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": ">=8 <21"
+          },
+          {
+            "name": "Java",
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "11",
+            "recipes": [
+              {
+                "id": "org.openrewrite.java.migrate.Java8toJava11",
+                "name": "Upgrade to Java 11",
+                "description": "Migrate Java 8 to Java 11.",
+                "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava11",
+                "recipeLib": {
+                  "groupId": "org.openrewrite.recipe",
+                  "artifactId": "rewrite-migrate-java",
+                  "version": "2.31.1",
+                  "versionForGradle": "2.31.1"
+                }
+              }
+            ],
+            "supportedSources": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": ">=8 <11"
+              }
+            ],
+            "effects": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": "11"
+              }
+            ]
+          },
+          {
+            "name": "Java",
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "17",
+            "recipes": [
+              {
+                "id": "org.openrewrite.java.migrate.UpgradeToJava17",
+                "name": "Upgrade to Java 17",
+                "description": "Migrate Java 8 to Java 17.",
+                "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava17",
+                "recipeLib": {
+                  "groupId": "org.openrewrite.recipe",
+                  "artifactId": "rewrite-migrate-java",
+                  "version": "2.31.1",
+                  "versionForGradle": "2.31.1"
+                }
+              }
+            ],
+            "supportedSources": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": ">=8 <17"
+              },
+              {
+                "name": "Java",
+                "groupId": "java",
+                "artifactId": "*",
+                "version": "11",
+                "recipes": [
+                  {
+                    "id": "org.openrewrite.java.migrate.Java8toJava11",
+                    "name": "Upgrade to Java 11",
+                    "description": "Migrate Java 8 to Java 11.",
+                    "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava11",
+                    "recipeLib": {
+                      "groupId": "org.openrewrite.recipe",
+                      "artifactId": "rewrite-migrate-java",
+                      "version": "2.31.1",
+                      "versionForGradle": "2.31.1"
+                    }
+                  }
+                ],
+                "supportedSources": [
+                  {
+                    "groupId": "java",
+                    "artifactId": "*",
+                    "version": ">=8 <11"
+                  }
+                ],
+                "effects": [
+                  {
+                    "groupId": "java",
+                    "artifactId": "*",
+                    "version": "11"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": "17"
+              }
+            ]
+          }
+        ],
+        "effects": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "21"
+          }
+        ]
+      },
+      {
+        "name": "Spring Boot",
+        "groupId": "org.springframework.boot",
+        "artifactId": "*",
+        "version": "3.2.x",
+        "dependencies": [
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": ">=17 <=21"
+          }
+        ],
+        "recipes": [
+          {
+            "id": "org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2",
+            "name": "Upgrade Spring Boot to 3.2",
+            "description": "Migrate low-level to Spring Boot 3.2 directly.",
+            "recipeLib": {
+              "groupId": "org.openrewrite.recipe",
+              "artifactId": "rewrite-spring",
+              "version": "5.25.1",
+              "versionForGradle": "5.23.0"
+            },
+            "url": "https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_2"
+          }
+        ],
+        "supportedSources": [
+          {
+            "groupId": "org.springframework.boot",
+            "artifactId": "*",
+            "version": "<=3.2.12"
+          },
+          {
+            "name": "Spring Boot",
+            "groupId": "org.springframework.boot",
+            "artifactId": "*",
+            "version": "2.7.x",
+            "dependencies": [
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": ">=8 <=21"
+              }
+            ],
+            "recipes": [
+              {
+                "id": "org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7",
+                "name": "Upgrade Spring Boot to 2.7",
+                "description": "Migrate low-level to Spring Boot 2.7 directly.",
+                "recipeLib": {
+                  "groupId": "org.openrewrite.recipe",
+                  "artifactId": "rewrite-spring",
+                  "version": "5.25.1",
+                  "versionForGradle": "5.23.0"
+                },
+                "url": "https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_7"
+              }
+            ],
+            "supportedSources": [
+              {
+                "groupId": "org.springframework.boot",
+                "artifactId": "*",
+                "version": "<=2.7.18"
+              }
+            ],
+            "effects": [
+              {
+                "groupId": "org.springframework.boot",
+                "artifactId": "*",
+                "version": "2.7.x"
+              },
+              {
+                "groupId": "java",
+                "artifactId": "*",
+                "version": "8"
+              },
+              {
+                "groupId": "org.springframework",
+                "artifactId": "*",
+                "version": "5.3.x"
+              }
+            ]
+          }
+        ],
+        "effects": [
+          {
+            "groupId": "org.springframework.boot",
+            "artifactId": "*",
+            "version": "3.2.x"
+          },
+          {
+            "groupId": "java",
+            "artifactId": "*",
+            "version": "17"
+          },
+          {
+            "groupId": "org.springframework",
+            "artifactId": "*",
+            "version": "6.1.x"
+          }
+        ]
+      }
+    ],
+    "buildTool": {
+      "name": "mvn",
+      "path": "C:\\softwares\\mvn\\bin",
+      "version": ""
+    }
+  },
+  "workingBranch": "appmod/java-upgrade-20251126124619",
+  "runTests": true
+}
+2025-11-26T12:46:33.773Z [INFO] Project dependencies loaded: [
+  "org.springframework.boot:spring-boot-starter-actuator:2.0.2.RELEASE:jar",
+  "org.springframework.boot:spring-boot-starter-web:2.0.2.RELEASE:jar",
+  "org.springframework.boot:spring-boot-starter-jdbc:2.0.2.RELEASE:jar",
+  "org.apache.httpcomponents:httpclient:4.5.5:jar",
+  "com.h2database:h2:1.4.197:jar",
+  "org.springframework.boot:spring-boot-configuration-processor:2.0.2.RELEASE:jar",
+  "org.springframework.boot:spring-boot-starter-test:2.0.2.RELEASE:jar",
+  "io.rest-assured:rest-assured:3.0.7:jar",
+  "org.codehaus.groovy:groovy-all:2.4.15:jar"
+]
+2025-11-26T12:46:33.773Z [INFO] Project modules loaded: [
+  "org.springframework.boot:spring-boot-sample-actuator:2.0.2"
+]
+2025-11-26T12:46:33.774Z [INFO] done initializing context.
+2025-11-26T12:46:33.774Z [INFO] Source dependencies: [
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-actuator",
+    "type": "jar",
+    "version": "2.0.2.RELEASE",
+    "scope": "compile",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-web",
+    "type": "jar",
+    "version": "2.0.2.RELEASE",
+    "scope": "compile",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-jdbc",
+    "type": "jar",
+    "version": "2.0.2.RELEASE",
+    "scope": "compile",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "type": "jar",
+    "version": "4.5.5",
+    "scope": "runtime",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "type": "jar",
+    "version": "1.4.197",
+    "scope": "runtime",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-configuration-processor",
+    "type": "jar",
+    "version": "2.0.2.RELEASE",
+    "scope": "compile",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-test",
+    "type": "jar",
+    "version": "2.0.2.RELEASE",
+    "scope": "test",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "io.rest-assured",
+    "artifactId": "rest-assured",
+    "type": "jar",
+    "version": "3.0.7",
+    "scope": "test",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "org.codehaus.groovy",
+    "artifactId": "groovy-all",
+    "type": "jar",
+    "version": "2.4.15",
+    "scope": "test",
+    "module": "spring-boot-sample-actuator"
+  },
+  {
+    "groupId": "java",
+    "artifactId": "*",
+    "version": "8"
+  }
+]
+2025-11-26T12:46:33.775Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object]
+2025-11-26T12:46:33.776Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Spring Boot
+2025-11-26T12:46:33.776Z [WARN] No source dependencies found for Spring Framework. Skipping target dependency validation
+2025-11-26T12:46:33.777Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Spring Framework
+2025-11-26T12:46:33.777Z [WARN] No source dependencies found for Spring Security. Skipping target dependency validation
+2025-11-26T12:46:33.777Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Spring Security
+2025-11-26T12:46:33.777Z [WARN] No source dependencies found for Jakarta EE. Skipping target dependency validation
+2025-11-26T12:46:33.778Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Jakarta EE
+2025-11-26T12:46:33.778Z [WARN] No source dependencies found for JUnit. Skipping target dependency validation
+2025-11-26T12:46:33.778Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:JUnit
+2025-11-26T12:46:33.779Z [INFO] validateAndUpdateTargets, targets: [object Object],[object Object], group:Java
+2025-11-26T12:46:33.779Z [INFO] validateAndUpdateTargets, userTargets: [object Object],[object Object]
+2025-11-26T12:46:33.781Z [INFO] Upgrade route: upgrade `Spring Boot` to *3.2.x*, upgrade `Java` to *21* with oneStepOneFramework=false
+2025-11-26T12:46:33.782Z [INFO] Upgrade route planned: [
+  [
+    {
+      "name": "Spring Boot",
+      "groupId": "org.springframework.boot",
+      "artifactId": "*",
+      "version": "3.2.x",
+      "dependencies": [
+        {
+          "groupId": "java",
+          "artifactId": "*",
+          "version": ">=17 <=21"
+        }
+      ],
+      "recipes": [
+        {
+          "id": "org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2",
+          "name": "Upgrade Spring Boot to 3.2",
+          "description": "Migrate low-level to Spring Boot 3.2 directly.",
+          "recipeLib": {
+            "groupId": "org.openrewrite.recipe",
+            "artifactId": "rewrite-spring",
+            "version": "5.25.1",
+            "versionForGradle": "5.23.0"
+          },
+          "url": "https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_2"
+        }
+      ],
+      "supportedSources": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "*",
+          "version": "<=3.2.12"
+        },
+        {
+          "name": "Spring Boot",
+          "groupId": "org.springframework.boot",
+          "artifactId": "*",
+          "version": "2.7.x",
+          "dependencies": [
+            {
+              "groupId": "java",
+              "artifactId": "*",
+              "version": ">=8 <=21"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7",
+              "name": "Upgrade Spring Boot to 2.7",
+              "description": "Migrate low-level to Spring Boot 2.7 directly.",
+              "recipeLib": {
+                "groupId": "org.openrewrite.recipe",
+                "artifactId": "rewrite-spring",
+                "version": "5.25.1",
+                "versionForGradle": "5.23.0"
+              },
+              "url": "https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_7"
+            }
+          ],
+          "supportedSources": [
+            {
+              "groupId": "org.springframework.boot",
+              "artifactId": "*",
+              "version": "<=2.7.18"
+            }
+          ],
+          "effects": [
+            {
+              "groupId": "org.springframework.boot",
+              "artifactId": "*",
+              "version": "2.7.x"
+            },
+            {
+              "groupId": "java",
+              "artifactId": "*",
+              "version": "8"
+            },
+            {
+              "groupId": "org.springframework",
+              "artifactId": "*",
+              "version": "5.3.x"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "*",
+          "version": "3.2.x"
+        },
+        {
+          "groupId": "java",
+          "artifactId": "*",
+          "version": "17"
+        },
+        {
+          "groupId": "org.springframework",
+          "artifactId": "*",
+          "version": "6.1.x"
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "groupId": "java",
+      "artifactId": "*",
+      "version": "21",
+      "recipes": [
+        {
+          "id": "org.openrewrite.java.migrate.UpgradeToJava21",
+          "name": "Upgrade to Java 21",
+          "description": "Migrate Java 8 to Java 21.",
+          "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava21",
+          "recipeLib": {
+            "groupId": "org.openrewrite.recipe",
+            "artifactId": "rewrite-migrate-java",
+            "version": "2.31.1",
+            "versionForGradle": "2.31.1"
+          }
+        }
+      ],
+      "supportedSources": [
+        {
+          "groupId": "java",
+          "artifactId": "*",
+          "version": ">=8 <21"
+        },
+        {
+          "name": "Java",
+          "groupId": "java",
+          "artifactId": "*",
+          "version": "11",
+          "recipes": [
+            {
+              "id": "org.openrewrite.java.migrate.Java8toJava11",
+              "name": "Upgrade to Java 11",
+              "description": "Migrate Java 8 to Java 11.",
+              "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava11",
+              "recipeLib": {
+                "groupId": "org.openrewrite.recipe",
+                "artifactId": "rewrite-migrate-java",
+                "version": "2.31.1",
+                "versionForGradle": "2.31.1"
+              }
+            }
+          ],
+          "supportedSources": [
+            {
+              "groupId": "java",
+              "artifactId": "*",
+              "version": ">=8 <11"
+            }
+          ],
+          "effects": [
+            {
+              "groupId": "java",
+              "artifactId": "*",
+              "version": "11"
+            }
+          ]
+        },
+        {
+          "name": "Java",
+          "groupId": "java",
+          "artifactId": "*",
+          "version": "17",
+          "recipes": [
+            {
+              "id": "org.openrewrite.java.migrate.UpgradeToJava17",
+              "name": "Upgrade to Java 17",
+              "description": "Migrate Java 8 to Java 17.",
+              "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava17",
+              "recipeLib": {
+                "groupId": "org.openrewrite.recipe",
+                "artifactId": "rewrite-migrate-java",
+                "version": "2.31.1",
+                "versionForGradle": "2.31.1"
+              }
+            }
+          ],
+          "supportedSources": [
+            {
+              "groupId": "java",
+              "artifactId": "*",
+              "version": ">=8 <17"
+            },
+            {
+              "name": "Java",
+              "groupId": "java",
+              "artifactId": "*",
+              "version": "11",
+              "recipes": [
+                {
+                  "id": "org.openrewrite.java.migrate.Java8toJava11",
+                  "name": "Upgrade to Java 11",
+                  "description": "Migrate Java 8 to Java 11.",
+                  "url": "https://docs.openrewrite.org/recipes/java/migrate/UpgradeToJava11",
+                  "recipeLib": {
+                    "groupId": "org.openrewrite.recipe",
+                    "artifactId": "rewrite-migrate-java",
+                    "version": "2.31.1",
+                    "versionForGradle": "2.31.1"
+                  }
+                }
+              ],
+              "supportedSources": [
+                {
+                  "groupId": "java",
+                  "artifactId": "*",
+                  "version": ">=8 <11"
+                }
+              ],
+              "effects": [
+                {
+                  "groupId": "java",
+                  "artifactId": "*",
+                  "version": "11"
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "groupId": "java",
+              "artifactId": "*",
+              "version": "17"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "groupId": "java",
+          "artifactId": "*",
+          "version": "21"
+        }
+      ]
+    }
+  ]
+]
+2025-11-26T12:46:33.903Z [INFO] RM src/main/java/sample/actuator/SampleActuatorApplication.java -> src/main/java/sample/actuator/Actuator.java
+RM src/main/java/sample/actuator/ServiceProperties.java -> src/main/java/sample/actuator/ConfigProps.java
+RM src/main/java/sample/actuator/HelloWorldService.java -> src/main/java/sample/actuator/MainApplication.java
+RM src/main/java/sample/actuator/ExampleHealthIndicator.java -> src/main/java/sample/actuator/PulseDiagnosis.java
+ M src/main/java/sample/actuator/SampleController.java
+RM src/main/java/sample/actuator/ExampleInfoContributor.java -> src/main/java/sample/actuator/WorkerThread.java
+ M src/test/java/sample/actuator/ExampleInfoContributorTest.java
+ M src/test/java/sample/actuator/HelloWorldServiceTest.java
+
+2025-11-26T12:46:33.920Z [INFO] Upgrade plan written to C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy\.github\java-upgrade\20251126124619\plan.md

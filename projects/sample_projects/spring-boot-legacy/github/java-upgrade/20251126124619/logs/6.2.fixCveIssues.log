@@ -1,0 +1,9 @@
+2025-11-26T12:49:14.078Z [INFO] [Task.commitChanges](6.2): Committing changes for C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy with message: Upgrade groovy-all to 2.4.21 to fix CVE-2020-17521
+2025-11-26T12:49:14.356Z [INFO] [appmod/java-upgrade-20251126124619 ecb6851] Upgrade groovy-all to 2.4.21 to fix CVE-2020-17521
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+2025-11-26T12:49:14.418Z [INFO] ecb68510825cf6b87927f21810581515c31a2575
+
+2025-11-26T12:49:14.560Z [INFO] 1	1	pom.xml
+
+2025-11-26T12:49:14.573Z [INFO] [Task.commitChanges](6.2): Committed changes for C:\Users\avina\copilot-cli\baseline-projects\Code_Analysis_Assistant-\projects\sample_projects\spring-boot-legacy with message: Upgrade groovy-all to 2.4.21 to fix CVE-2020-17521

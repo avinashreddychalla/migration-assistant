@@ -1,0 +1,64 @@
+2025-11-26T12:52:51.177Z [INFO] getting CVEs for dependencies:
+ - org.springframework.boot:spring-boot-starter-actuator:2.0.2.RELEASE
+  - org.springframework.boot:spring-boot-starter-web:2.0.2.RELEASE
+  - org.springframework.boot:spring-boot-starter-jdbc:2.0.2.RELEASE
+  - org.apache.httpcomponents:httpclient:4.5.5
+  - com.h2database:h2:1.4.197
+  - org.springframework.boot:spring-boot-configuration-processor:2.0.2.RELEASE
+  - org.springframework.boot:spring-boot-starter-test:2.0.2.RELEASE
+  - io.rest-assured:rest-assured:3.0.7
+  - org.codehaus.groovy:groovy-all:2.4.15
+  - java:*:8...
+2025-11-26T12:52:51.178Z [INFO] getting gitHub access token...
+2025-11-26T12:52:51.179Z [ERROR] Failed to get GitHub access token to validate CVEs for the given dependencies.
+2025-11-26T12:52:51.179Z [INFO] Processing batch 1/1, size: 10
+2025-11-26T12:52:51.181Z [INFO] listing CVEs from GithHub for dependencies [
+  {
+    "name": "org.springframework.boot:spring-boot-starter-actuator",
+    "version": "2.0.2.RELEASE"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-web",
+    "version": "2.0.2.RELEASE"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-jdbc",
+    "version": "2.0.2.RELEASE"
+  },
+  {
+    "name": "org.apache.httpcomponents:httpclient",
+    "version": "4.5.5"
+  },
+  {
+    "name": "com.h2database:h2",
+    "version": "1.4.197"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-configuration-processor",
+    "version": "2.0.2.RELEASE"
+  },
+  {
+    "name": "org.springframework.boot:spring-boot-starter-test",
+    "version": "2.0.2.RELEASE"
+  },
+  {
+    "name": "io.rest-assured:rest-assured",
+    "version": "3.0.7"
+  },
+  {
+    "name": "org.codehaus.groovy:groovy-all",
+    "version": "2.4.15"
+  },
+  {
+    "name": "java:*",
+    "version": "8"
+  }
+]
+2025-11-26T12:52:51.713Z [INFO] found 5 CVEs for dependencies
+2025-11-26T12:52:51.714Z [INFO] grouping CVEs and finding min patched version by dep...
+2025-11-26T12:52:51.714Z [INFO] new patchedVersion 2.5.12, maxPatchedVersion undefined.
+2025-11-26T12:52:51.715Z [INFO] new patchedVersion 4.5.13, maxPatchedVersion undefined.
+2025-11-26T12:52:51.715Z [INFO] new patchedVersion 2.0.206, maxPatchedVersion undefined.
+2025-11-26T12:52:51.715Z [INFO] new patchedVersion 2.1.210, maxPatchedVersion 2.0.206.
+2025-11-26T12:52:51.716Z [INFO] new patchedVersion 2.4.21, maxPatchedVersion undefined.
+2025-11-26T12:52:51.716Z [INFO] done getting 4 CVEs for 10 dependencies
