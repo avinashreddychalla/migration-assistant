@@ -1,0 +1,7 @@
+2025-12-18T12:17:22.286Z [INFO] Prechecking project spring-boot-legacy...
+2025-12-18T12:17:22.286Z [INFO] Prechecking build status...
+2025-12-18T12:17:29.585Z [ERROR] Precheck failed: Error: Project compile failed with 1 errors. The project must be compileable before upgrading it, please fix the errors first and then invoke tool #setup_upgrade_environment again to setup development environment:
+- === Config File error     The below errors can be due to missing dependencies. You may have to refer     to the config files provided earlier to solve it.     'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project spring-boot-sample-actuator: Fatal error compiling: invalid target release: 21 
+  ```
+  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project spring-boot-sample-actuator: Fatal error compiling: invalid target release: 21
+  ```

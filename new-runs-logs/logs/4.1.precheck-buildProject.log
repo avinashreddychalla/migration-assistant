@@ -1,0 +1,14 @@
+2025-12-18T12:17:22.288Z [INFO] [MavenBuildTool] Getting build errors of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy using Maven
+2025-12-18T12:17:22.289Z [INFO] [Environment] Running command (Java 8): mvn clean test-compile -q -B -fn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project spring-boot-sample-actuator: Fatal error compiling: invalid target release: 21 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2025-12-18T12:17:27.179Z [INFO] [MavenBuildTool] parsing compilation errors.
+2025-12-18T12:17:27.180Z [INFO] [BaseBuildTool] Found 1 modules: .
+2025-12-18T12:17:27.185Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2025-12-18T12:17:27.185Z [INFO] [MavenBuildTool] Cleaning C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy using Maven
+2025-12-18T12:17:27.185Z [INFO] [Environment] Running command (Java 8): mvn clean -q -B -fn

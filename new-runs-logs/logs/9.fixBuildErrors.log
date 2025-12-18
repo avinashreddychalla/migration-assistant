@@ -1,0 +1,9 @@
+2025-12-18T12:22:58.296Z [INFO] [Task.commitChanges](9): Committing changes for C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy with message: Removed incompatible httpclient dependency for Spring Boot 3.3.5
+2025-12-18T12:22:58.453Z [INFO] [appmod/java-upgrade-20251218120113 96efc5e] Removed incompatible httpclient dependency for Spring Boot 3.3.5
+ 1 file changed, 2 insertions(+), 9 deletions(-)
+
+2025-12-18T12:22:58.509Z [INFO] 96efc5e288042b11963798e233c6a1acf526a617
+
+2025-12-18T12:22:58.566Z [INFO] 2	9	pom.xml
+
+2025-12-18T12:22:58.583Z [INFO] [Task.commitChanges](9): Committed changes for C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy with message: Removed incompatible httpclient dependency for Spring Boot 3.3.5

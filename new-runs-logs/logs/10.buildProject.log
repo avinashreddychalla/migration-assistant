@@ -1,0 +1,95 @@
+2025-12-18T12:22:58.588Z [INFO] [BaseBuildTool] Firing config modified event for mvn, sleeping for 5 seconds
+2025-12-18T12:22:58.589Z [INFO] [Environment] Running command (Java 21): mvn --version
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\softwares\mvn
+Java version: 21.0.8, vendor: Microsoft, runtime: C:\Users\avina\.jdk\jdk-21.0.8
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2025-12-18T12:22:58.935Z [INFO] [BaseBuildTool] New version of mvn: 3.9.9 -> 3.9.9
+2025-12-18T12:22:58.936Z [INFO] [MavenBuildTool] Getting Java version of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy from pom.xml
+2025-12-18T12:22:58.936Z [INFO] [MavenBuildTool] Searching for pom.xml files in C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:22:58.936Z [INFO] [MavenBuildTool] Getting all module coordinates of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:22:58.936Z [INFO] [MavenBuildTool] Getting effective POMs of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:22:58.937Z [INFO] [Environment] Running command (Java 21): mvn help:effective-pom -Doutput=effective-pom-8fecfad5-b785-41b1-a5b3-161da28496a1.log
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.5/spring-boot-maven-plugin-3.3.5.pom
+Progress (1): 1.3 kBProgress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.5/spring-boot-maven-plugin-3.3.5.pom (4.0 kB at 7.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.5/spring-boot-maven-plugin-3.3.5.jar
+Progress (1): 0.9/137 kBProgress (1): 2.3/137 kBProgress (1): 3.6/137 kBProgress (1): 5.0/137 kBProgress (1): 6.4/137 kBProgress (1): 7.7/137 kBProgress (1): 9.1/137 kBProgress (1): 10/137 kB Progress (1): 12/137 kBProgress (1): 13/137 kBProgress (1): 15/137 kBProgress (1): 16/137 kBProgress (1): 17/137 kBProgress (1): 19/137 kBProgress (1): 20/137 kBProgress (1): 20/137 kBProgress (1): 22/137 kBProgress (1): 23/137 kBProgress (1): 24/137 kBProgress (1): 26/137 kBProgress (1): 27/137 kBProgress (1): 29/137 kBProgress (1): 30/137 kBProgress (1): 31/137 kBProgress (1): 33/137 kBProgress (1): 34/137 kBProgress (1): 35/137 kBProgress (1): 37/137 kBProgress (1): 38/137 kBProgress (1): 40/137 kBProgress (1): 41/137 kBProgress (1): 42/137 kBProgress (1): 44/137 kBProgress (1): 45/137 kBProgress (1): 46/137 kBProgress (1): 48/137 kBProgress (1): 49/137 kBProgress (1): 50/137 kBProgress (1): 52/137 kBProgress (1): 56/137 kBProgress (1): 60/137 kBProgress (1): 65/137 kBProgress (1): 69/137 kBProgress (1): 73/137 kBProgress (1): 77/137 kBProgress (1): 81/137 kBProgress (1): 86/137 kBProgress (1): 90/137 kBProgress (1): 94/137 kBProgress (1): 98/137 kBProgress (1): 103/137 kBProgress (1): 107/137 kBProgress (1): 111/137 kBProgress (1): 115/137 kBProgress (1): 120/137 kBProgress (1): 124/137 kBProgress (1): 128/137 kBProgress (1): 132/137 kBProgress (1): 136/137 kBProgress (1): 137 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.5/spring-boot-maven-plugin-3.3.5.jar (137 kB at 613 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.pom
+Progress (1): 819 BProgress (1): 2.9 kBProgress (1): 5.6 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.pom (10 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.jar
+Progress (1): 3.8/55 kBProgress (1): 8.0/55 kBProgress (1): 12/55 kB Progress (1): 16/55 kBProgress (1): 20/55 kBProgress (1): 25/55 kBProgress (1): 29/55 kBProgress (1): 33/55 kBProgress (1): 37/55 kBProgress (1): 41/55 kBProgress (1): 46/55 kBProgress (1): 50/55 kBProgress (1): 54/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.jar (55 kB at 540 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.pom
+Progress (1): 1.1 kBProgress (1): 3.2 kBProgress (1): 5.7 kBProgress (1): 7.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.pom (7.4 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/77/mojo-parent-77.pom
+Progress (1): 707 BProgress (1): 2.4 kBProgress (1): 6.2 kBProgress (1): 8.1 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 18 kBProgress (1): 24 kBProgress (1): 27 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 36 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/77/mojo-parent-77.pom (36 kB at 366 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.jar
+Progress (1): 7.7/71 kBProgress (1): 16/71 kB Progress (1): 20/71 kBProgress (1): 37/71 kBProgress (1): 53/71 kBProgress (1): 69/71 kBProgress (1): 71 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.jar (71 kB at 916 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.2/cyclonedx-maven-plugin-2.8.2.pom
+Progress (1): 709 BProgress (1): 2.3 kBProgress (1): 4.5 kBProgress (1): 8.7 kBProgress (1): 12 kB Progress (1): 18 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.2/cyclonedx-maven-plugin-2.8.2.pom (19 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.2/cyclonedx-maven-plugin-2.8.2.jar
+Progress (1): 7.7/51 kBProgress (1): 16/51 kB Progress (1): 20/51 kBProgress (1): 37/51 kBProgress (1): 51 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.2/cyclonedx-maven-plugin-2.8.2.jar (51 kB at 301 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.pom
+Progress (1): 869 BProgress (1): 3.8 kBProgress (1): 4.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.pom (4.4 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/10.10.0/flyway-parent-10.10.0.pom
+Progress (1): 720 BProgress (1): 2.2 kBProgress (1): 4.6 kBProgress (1): 6.6 kBProgress (1): 14 kB Progress (1): 22 kBProgress (1): 26 kBProgress (1): 30 kBProgress (1): 33 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/10.10.0/flyway-parent-10.10.0.pom (33 kB at 324 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.jar
+Progress (1): 7.7/110 kBProgress (1): 8.2/110 kBProgress (1): 25/110 kB Progress (1): 41/110 kBProgress (1): 57/110 kBProgress (1): 74/110 kBProgress (1): 90/110 kBProgress (1): 106/110 kBProgress (1): 110 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.jar (110 kB at 911 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.pom
+Progress (1): 962 BProgress (1): 2.8 kBProgress (1): 8.1 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 26 kBProgress (1): 28 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.pom (28 kB at 383 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.jar
+Progress (1): 7.7/55 kBProgress (1): 16/55 kB Progress (1): 25/55 kBProgress (1): 41/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.jar (55 kB at 686 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.14/jooq-codegen-maven-3.19.14.pom
+Progress (1): 1.2 kBProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.14/jooq-codegen-maven-3.19.14.pom (3.7 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.14/jooq-parent-3.19.14.pom
+Progress (1): 917 BProgress (1): 2.4 kBProgress (1): 4.7 kBProgress (1): 11 kB Progress (1): 17 kBProgress (1): 21 kBProgress (1): 24 kBProgress (1): 29 kBProgress (1): 34 kBProgress (1): 37 kBProgress (1): 40 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.14/jooq-parent-3.19.14.pom (40 kB at 557 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.14/jooq-codegen-maven-3.19.14.jar
+Progress (1): 3.9/17 kBProgress (1): 17 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.14/jooq-codegen-maven-3.19.14.jar (17 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.pom
+Progress (1): 1.3 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.pom (2.0 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.jar
+Progress (1): 7.7/282 kBProgress (1): 16/282 kB Progress (1): 28/282 kBProgress (1): 44/282 kBProgress (1): 61/282 kBProgress (1): 77/282 kBProgress (1): 93/282 kBProgress (1): 110/282 kBProgress (1): 126/282 kBProgress (1): 142/282 kBProgress (1): 159/282 kBProgress (1): 175/282 kBProgress (1): 187/282 kBProgress (1): 204/282 kBProgress (1): 220/282 kBProgress (1): 237/282 kBProgress (1): 253/282 kBProgress (1): 269/282 kBProgress (1): 282 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.jar (282 kB at 3.0 MB/s)
+[INFO] 
+[INFO] --------< org.springframework.boot:spring-boot-sample-actuator >--------
+[INFO] Building Spring Boot Actuator Sample 2.0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.4.1:effective-pom (default-cli) @ spring-boot-sample-actuator ---
+[INFO] Effective-POM written to: C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\effective-pom-8fecfad5-b785-41b1-a5b3-161da28496a1.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.808 s
+[INFO] Finished at: 2025-12-18T17:53:08+05:30
+[INFO] ------------------------------------------------------------------------
+2025-12-18T12:23:08.488Z [INFO] [MavenBuildTool] Found pom.xml files: C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml
+2025-12-18T12:23:08.489Z [INFO] [MavenBuildTool] Java version found in C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml: 8
+2025-12-18T12:23:08.489Z [INFO] [BaseBuildTool] Notifying Java version/Config change: '8' || '21'
+2025-12-18T12:23:08.490Z [INFO] [MavenBuildTool] Getting build errors of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy using Maven
+2025-12-18T12:23:08.491Z [INFO] [Environment] Running command (Java 21): mvn clean test-compile -q -B -fn
+[ERROR] COMPILATION ERROR : 
+[ERROR] /C:/Users/avina/copilot-cli/baseline-projects/spring-boot-legacy/src/main/java/sample/actuator/SampleController.java:[24,36] package javax.validation.constraints does not exist
+[ERROR] /C:/Users/avina/copilot-cli/baseline-projects/spring-boot-legacy/src/main/java/sample/actuator/SampleController.java:[70,18] cannot find symbol
+  symbol:   class NotBlank
+  location: class sample.actuator.SampleController.Message
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project spring-boot-sample-actuator: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/avina/copilot-cli/baseline-projects/spring-boot-legacy/src/main/java/sample/actuator/SampleController.java:[24,36] package javax.validation.constraints does not exist
+[ERROR] /C:/Users/avina/copilot-cli/baseline-projects/spring-boot-legacy/src/main/java/sample/actuator/SampleController.java:[70,18] cannot find symbol
+[ERROR]   symbol:   class NotBlank
+[ERROR]   location: class sample.actuator.SampleController.Message
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2025-12-18T12:23:27.496Z [INFO] [MavenBuildTool] parsing compilation errors.
+2025-12-18T12:23:27.497Z [INFO] [BaseBuildTool] Found 1 modules: .
+2025-12-18T12:23:27.502Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2025-12-18T12:23:27.502Z [INFO] [MavenBuildTool] Cleaning C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy using Maven
+2025-12-18T12:23:27.502Z [INFO] [Environment] Running command (Java 21): mvn clean -q -B -fn
+2025-12-18T12:23:29.878Z [INFO] Build project completed. Looking for next task...
+2025-12-18T12:23:29.878Z [INFO] Build project failed with 2 errors. The next task is to ask Agent to fix build errors.

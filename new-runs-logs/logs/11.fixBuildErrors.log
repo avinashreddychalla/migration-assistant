@@ -1,0 +1,9 @@
+2025-12-18T12:24:19.376Z [INFO] [Task.commitChanges](11): Committing changes for C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy with message: Updated validation imports from javax to jakarta
+2025-12-18T12:24:19.603Z [INFO] [appmod/java-upgrade-20251218120113 4174174] Updated validation imports from javax to jakarta
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+2025-12-18T12:24:19.652Z [INFO] 41741747c914546dc827741cf03d7d0c83eed6d7
+
+2025-12-18T12:24:19.705Z [INFO] 1	1	src/main/java/sample/actuator/SampleController.java
+
+2025-12-18T12:24:19.717Z [INFO] [Task.commitChanges](11): Committed changes for C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy with message: Updated validation imports from javax to jakarta

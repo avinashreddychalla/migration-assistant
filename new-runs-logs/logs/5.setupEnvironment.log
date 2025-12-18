@@ -1,0 +1,247 @@
+2025-12-18T12:18:41.771Z [INFO] validate plan and setup env from plan.md file...
+2025-12-18T12:18:41.771Z [INFO] Project C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy is a maven project, try to get java version from pom.xml
+2025-12-18T12:18:41.772Z [INFO] Project java version: 21
+2025-12-18T12:18:41.773Z [INFO] Build tool type: mvn
+2025-12-18T12:18:41.942Z [INFO] [Environment] Running command (Java 21): java -version
+openjdk version "21.0.8" 2025-07-15 LTS
+OpenJDK Runtime Environment Microsoft-11933218 (build 21.0.8+9-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11933218 (build 21.0.8+9-LTS, mixed mode, sharing)
+2025-12-18T12:18:42.049Z [INFO] [JdkEnvironment] Got real Java version: 21.0.8
+2025-12-18T12:18:42.050Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\avina\\.jdk\\jdk-21.0.8\\bin",
+  "version": "21"
+}
+2025-12-18T12:18:42.056Z [INFO] [Environment] Running command (Java 21): mvn --version
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\softwares\mvn
+Java version: 21.0.8, vendor: Microsoft, runtime: C:\Users\avina\.jdk\jdk-21.0.8
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2025-12-18T12:18:42.418Z [INFO] Real build tool version: 3.9.9
+2025-12-18T12:18:42.418Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\softwares\\mvn\\bin",
+  "version": "3.9.9"
+}
+2025-12-18T12:18:42.418Z [INFO] Project config: {
+  "name": "spring-boot-legacy",
+  "dir": "C:\\Users\\avina\\copilot-cli\\baseline-projects\\spring-boot-legacy",
+  "buildTool": {
+    "name": "mvn",
+    "path": "C:\\softwares\\mvn\\bin",
+    "version": "3.9.9"
+  },
+  "jdk": {
+    "name": "java",
+    "path": "C:\\Users\\avina\\.jdk\\jdk-21.0.8\\bin",
+    "version": "21"
+  }
+}
+2025-12-18T12:18:42.419Z [INFO] [Project spring-boot-legacy]: getting Java version.
+2025-12-18T12:18:42.419Z [INFO] [Project spring-boot-legacy]: reset Java version promise.
+2025-12-18T12:18:42.419Z [INFO] [MavenBuildTool] Getting Java version of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy from pom.xml
+2025-12-18T12:18:42.420Z [INFO] [MavenBuildTool] Searching for pom.xml files in C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:42.420Z [INFO] [MavenBuildTool] Getting all module coordinates of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:42.420Z [INFO] [MavenBuildTool] Getting effective POMs of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:42.423Z [INFO] [Environment] Running command (Java 21): mvn help:effective-pom -Doutput=effective-pom-5690bde9-5e34-4298-ab6d-2244ef976917.log
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.3.5/spring-boot-starter-parent-3.3.5.pom
+Progress (1): 1.1 kBProgress (1): 2.7 kBProgress (1): 3.2 kBProgress (1): 6.9 kBProgress (1): 11 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.3.5/spring-boot-starter-parent-3.3.5.pom (13 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/3.4.2/zipkin-reporter-bom-3.4.2.pom
+Progress (1): 745 BProgress (1): 1.7 kBProgress (1): 5.2 kBProgress (1): 6.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/3.4.2/zipkin-reporter-bom-3.4.2.pom (6.4 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.23/groovy-bom-4.0.23.pom
+Progress (1): 960 BProgress (1): 3.0 kBProgress (1): 3.2 kBProgress (1): 6.2 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 20 kBProgress (1): 22 kBProgress (1): 27 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.23/groovy-bom-4.0.23.pom (27 kB at 195 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/15.0.10.Final/infinispan-bom-15.0.10.Final.pom
+Progress (1): 1.1 kBProgress (1): 3.1 kBProgress (1): 18 kB Progress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/15.0.10.Final/infinispan-bom-15.0.10.Final.pom (18 kB at 139 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.14/jetty-ee10-bom-12.0.14.pom
+Progress (1): 1.1 kBProgress (1): 3.8 kBProgress (1): 9.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.14/jetty-ee10-bom-12.0.14.pom (9.6 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.14/jetty-bom-12.0.14.pom
+Progress (1): 1.1 kBProgress (1): 3.8 kBProgress (1): 14 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.14/jetty-bom-12.0.14.pom (14 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.1/log4j-bom-2.23.1.pom
+Progress (1): 834 BProgress (1): 1.9 kBProgress (1): 3.2 kBProgress (1): 6.3 kBProgress (1): 12 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.1/log4j-bom-2.23.1.pom (12 kB at 170 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.13.6/micrometer-bom-1.13.6.pom
+Progress (1): 1.1 kBProgress (1): 7.2 kBProgress (1): 8.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.13.6/micrometer-bom-1.13.6.pom (8.4 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.3.5/micrometer-tracing-bom-1.3.5.pom
+Progress (1): 1.0 kBProgress (1): 3.5 kBProgress (1): 4.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.3.5/micrometer-tracing-bom-1.3.5.pom (4.5 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-bom/5.11.0/mockito-bom-5.11.0.pom
+Progress (1): 1.4 kBProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-bom/5.11.0/mockito-bom-5.11.0.pom (3.0 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.114.Final/netty-bom-4.1.114.Final.pom
+Progress (1): 790 BProgress (1): 1.9 kBProgress (1): 9.4 kBProgress (1): 14 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.114.Final/netty-bom-4.1.114.Final.pom (14 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-bom/1.37.0/opentelemetry-bom-1.37.0.pom
+Progress (1): 975 BProgress (1): 5.4 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-bom/1.37.0/opentelemetry-bom-1.37.0.pom (5.7 kB at 100 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/prometheus-metrics-bom/1.2.1/prometheus-metrics-bom-1.2.1.pom
+Progress (1): 1.3 kBProgress (1): 6.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/prometheus-metrics-bom/1.2.1/prometheus-metrics-bom-1.2.1.pom (6.1 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/client_java/1.2.1/client_java-1.2.1.pom
+Progress (1): 1.1 kBProgress (1): 3.2 kBProgress (1): 6.7 kBProgress (1): 9.7 kBProgress (1): 13 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/client_java/1.2.1/client_java-1.2.1.pom (13 kB at 214 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/3.2.4/pulsar-bom-3.2.4.pom
+Progress (1): 803 BProgress (1): 2.4 kBProgress (1): 4.5 kBProgress (1): 14 kB Progress (1): 26 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/3.2.4/pulsar-bom-3.2.4.pom (26 kB at 346 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-bom/5.4.0/rest-assured-bom-5.4.0.pom
+Progress (1): 1.2 kBProgress (1): 4.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-bom/5.4.0/rest-assured-bom-5.4.0.pom (4.5 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-bom/4.19.1/selenium-bom-4.19.1.pom
+Progress (1): 1.1 kBProgress (1): 6.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-bom/4.19.1/selenium-bom-4.19.1.pom (6.0 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.1.7/spring-amqp-bom-3.1.7.pom
+Progress (1): 963 BProgress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.1.7/spring-amqp-bom-3.1.7.pom (3.9 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2024.0.5/spring-data-bom-2024.0.5.pom
+Progress (1): 966 BProgress (1): 2.6 kBProgress (1): 5.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2024.0.5/spring-data-bom-2024.0.5.pom (5.5 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.3.5/spring-integration-bom-6.3.5.pom
+Progress (1): 961 BProgress (1): 6.9 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.3.5/spring-integration-bom-6.3.5.pom (10 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.1.5/spring-pulsar-bom-1.1.5.pom
+Progress (1): 958 BProgress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.1.5/spring-pulsar-bom-1.1.5.pom (2.9 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/restdocs/spring-restdocs-bom/3.0.2/spring-restdocs-bom-3.0.2.pom
+Progress (1): 1.1 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/restdocs/spring-restdocs-bom/3.0.2/spring-restdocs-bom-3.0.2.pom (2.6 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/3.3.3/spring-session-bom-3.3.3.pom
+Progress (1): 976 BProgress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/3.3.3/spring-session-bom-3.3.3.pom (2.9 kB at 32 kB/s)
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\avina\.m2\repository\org\infinispan\infinispan-bom\15.0.10.Final\infinispan-bom-15.0.10.Final.pom: input contained no data @ C:\Users\avina\.m2\repository\org\infinispan\infinispan-bom\15.0.10.Final\infinispan-bom-15.0.10.Final.pom
+[FATAL] Non-readable POM C:\Users\avina\.m2\repository\org\apache\logging\log4j\log4j-bom\2.23.1\log4j-bom-2.23.1.pom: input contained no data @ C:\Users\avina\.m2\repository\org\apache\logging\log4j\log4j-bom\2.23.1\log4j-bom-2.23.1.pom
+[FATAL] Non-readable POM C:\Users\avina\.m2\repository\org\apache\pulsar\pulsar-bom\3.2.4\pulsar-bom-3.2.4.pom: input contained no data @ C:\Users\avina\.m2\repository\org\apache\pulsar\pulsar-bom\3.2.4\pulsar-bom-3.2.4.pom
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 4 errors
+[ERROR]     Non-readable POM C:\Users\avina\.m2\repository\org\infinispan\infinispan-bom\15.0.10.Final\infinispan-bom-15.0.10.Final.pom: input contained no data @ C:\Users\avina\.m2\repository\org\infinispan\infinispan-bom\15.0.10.Final\infinispan-bom-15.0.10.Final.pom
+[ERROR]     Non-readable POM C:\Users\avina\.m2\repository\org\apache\logging\log4j\log4j-bom\2.23.1\log4j-bom-2.23.1.pom: input contained no data @ C:\Users\avina\.m2\repository\org\apache\logging\log4j\log4j-bom\2.23.1\log4j-bom-2.23.1.pom
+[ERROR]     Non-readable POM C:\Users\avina\.m2\repository\org\apache\pulsar\pulsar-bom\3.2.4\pulsar-bom-3.2.4.pom: input contained no data @ C:\Users\avina\.m2\repository\org\apache\pulsar\pulsar-bom\3.2.4\pulsar-bom-3.2.4.pom
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:18:49.489Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\effective-pom-5690bde9-5e34-4298-ab6d-2244ef976917.log'
+2025-12-18T12:18:49.489Z [INFO] [MavenBuildTool] Found pom.xml files: 
+2025-12-18T12:18:49.490Z [INFO] [Environment] Running command (Java 21): mvn help:evaluate -Dexpression=project.properties -q -DforceStdout
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:18:51.533Z [INFO] [Environment] Running command (Java 21): mvn help:effective-pom -DforceStdout
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:18:53.675Z [ERROR] [MavenBuildTool] Failed to get Java version of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:53.675Z [ERROR] failed to load Java Version, returning default version 21
+2025-12-18T12:18:53.676Z [INFO] Source Java version: 21
+2025-12-18T12:18:53.676Z [INFO] [Project spring-boot-legacy]: getting dependencies promise.
+2025-12-18T12:18:53.676Z [INFO] [Project spring-boot-legacy]: reset dependencies promise.
+2025-12-18T12:18:53.677Z [INFO] [Environment] Running command (Java 21): mvn dependency:tree -B
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:18:55.786Z [ERROR] [MavenBuildTool] Failed to get dependencies from dependency tree: Error: Failed to run command: "mvn dependency:tree -B" with error code 1
+
+2025-12-18T12:18:55.786Z [INFO] [Environment] Running command (Java 21): mvn help:effective-pom -B
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:18:57.984Z [ERROR] [MavenBuildTool] Failed to get dependencies from effective pom: Error: Failed to run command: "mvn help:effective-pom -B" with error code 1
+
+2025-12-18T12:18:57.985Z [INFO] [MavenBuildTool] Getting Java version of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy from pom.xml
+2025-12-18T12:18:57.985Z [INFO] [MavenBuildTool] Searching for pom.xml files in C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:57.986Z [INFO] [MavenBuildTool] Getting all module coordinates of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:57.986Z [INFO] [MavenBuildTool] Getting effective POMs of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:18:57.986Z [INFO] [Environment] Running command (Java 21): mvn help:effective-pom -Doutput=effective-pom-b80c8628-bc18-4f29-a012-d8a58a71f549.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:19:00.429Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\effective-pom-b80c8628-bc18-4f29-a012-d8a58a71f549.log'
+2025-12-18T12:19:00.430Z [INFO] [MavenBuildTool] Found pom.xml files: 
+2025-12-18T12:19:00.430Z [INFO] [Environment] Running command (Java 21): mvn help:evaluate -Dexpression=project.properties -q -DforceStdout
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:19:03.202Z [INFO] [Environment] Running command (Java 21): mvn help:effective-pom -DforceStdout
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.boot:spring-boot-sample-actuator:2.0.2 (C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy\pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 54, column 15
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-12-18T12:19:06.834Z [ERROR] [MavenBuildTool] Failed to get Java version of C:\Users\avina\copilot-cli\baseline-projects\spring-boot-legacy
+2025-12-18T12:19:06.836Z [INFO] validateAndUpdateTargets, targets: [object Object]
+2025-12-18T12:19:06.836Z [WARN] No source dependencies found for Spring Boot. Skipping target dependency validation
+2025-12-18T12:19:06.837Z [INFO] validateAndUpdateTargets, targets: [object Object], group:Spring Boot
+2025-12-18T12:19:06.837Z [WARN] No source dependencies found for Spring Framework. Skipping target dependency validation
+2025-12-18T12:19:06.837Z [INFO] validateAndUpdateTargets, targets: [object Object], group:Spring Framework
+2025-12-18T12:19:06.838Z [WARN] No source dependencies found for Spring Security. Skipping target dependency validation
+2025-12-18T12:19:06.839Z [INFO] validateAndUpdateTargets, targets: [object Object], group:Spring Security
+2025-12-18T12:19:06.840Z [WARN] No source dependencies found for Jakarta EE. Skipping target dependency validation
+2025-12-18T12:19:06.840Z [INFO] validateAndUpdateTargets, targets: [object Object], group:Jakarta EE
+2025-12-18T12:19:06.840Z [WARN] No source dependencies found for JUnit. Skipping target dependency validation
+2025-12-18T12:19:06.841Z [INFO] validateAndUpdateTargets, targets: [object Object], group:JUnit
+2025-12-18T12:19:06.842Z [ERROR] We are not able to upgrade Java from undefined to 21 directly.
+2025-12-18T12:19:06.842Z [ERROR] Failed to validate plan and setup env from plan.md: UserError: We are not able to upgrade Java from undefined to 21 directly. Please set another compatible target versions. We only support upgrading to 21 directly from >=8 <21, 11, 17, please upgrade to one of these versions first.
